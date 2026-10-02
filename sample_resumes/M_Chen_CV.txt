@@ -1,0 +1,32 @@
+MICHAEL CHEN
+Software Development Engineer
+michael.chen.dev@outlook.com  ·  (415) 220-9871  ·  San Francisco, CA
+github.com/mchen-builds
+
+SUMMARY
+Full-stack developer, 8 years. I like small teams and boring infrastructure.
+
+EXPERIENCE
+
+Staff Engineer, Stripe
+January 2022 – Present
+Owned the merchant onboarding funnel end to end. TypeScript, React, Node.js, PostgreSQL.
+Reduced onboarding drop-off from 31% to 18% over three quarters.
+
+Senior Frontend Engineer, Airbnb
+Feb 2019 – Dec 2021
+Design-system work in React and Storybook. Shipped the pricing calendar rewrite.
+
+Frontend Engineer, Shopify
+June 2016 – Jan 2019
+Built merchant dashboards in Vue and later React. GraphQL adoption lead.
+
+SKILLS
+JavaScript, TypeScript, React, Next.js, Redux, Node.js, Express, GraphQL, HTML5, CSS3,
+Tailwind CSS, PostgreSQL, Redis, Docker, GitHub Actions, Jest, Cypress, Figma, Agile
+
+EDUCATION
+BS Computer Science, University of California, Berkeley — 2016
+
+AWARDS
+Shopify Hack Days winner, 2018

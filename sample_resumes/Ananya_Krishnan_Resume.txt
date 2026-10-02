@@ -1,0 +1,37 @@
+Ananya Krishnan
+Bengaluru, Karnataka | ananya.krishnan28@gmail.com | +91 98450 21174
+linkedin.com/in/ananyakrishnan | github.com/ananyak-dev
+
+PROFESSIONAL SUMMARY
+Backend engineer with 5 years building payment and ledger services at scale. Owned a
+migration that cut settlement latency by 42%. Comfortable leading a squad of four.
+
+TECHNICAL SKILLS
+Languages: Java, Python, SQL, Bash
+Frameworks: Spring Boot, Hibernate, FastAPI
+Infrastructure: Docker, Kubernetes, AWS (EC2, S3, Lambda), Terraform, Jenkins
+Databases: PostgreSQL, Redis, MongoDB
+Practices: Microservices, REST APIs, System design, Code review, Agile, JUnit
+
+WORK EXPERIENCE
+Senior Software Engineer — Razorpay Technologies Pvt Ltd
+Bengaluru | Mar 2023 - Present
+- Led the ledger reconciliation rewrite serving 9M transactions a day.
+- Introduced contract testing across 14 microservices; escaped defects down 61%.
+
+Software Engineer — Infosys Limited
+Bengaluru | Jul 2020 - Feb 2023
+- Built REST APIs for a retail banking client on Spring Boot and Oracle.
+- Mentored three interns through the Springboard programme.
+
+EDUCATION
+B.Tech in Computer Science and Engineering
+National Institute of Technology, Surathkal, 2020
+CGPA 8.7 / 10
+
+CERTIFICATIONS
+AWS Certified Solutions Architect - Associate (2024)
+Oracle Certified Professional, Java SE 11
+
+LANGUAGES
+English, Hindi, Malayalam

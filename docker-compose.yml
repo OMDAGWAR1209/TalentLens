@@ -1,0 +1,85 @@
+# TalentLens — container setup.
+#
+#   docker compose up --build
+#       API + console  http://localhost:8000
+#       dashboard      http://localhost:8501
+#       Stores data in a SQLite file on a named volume. This is the tested path.
+#
+#   docker compose --profile postgres up --build
+#       Adds a PostgreSQL server and pgAdmin, and points the API at PostgreSQL
+#       instead. UNTESTED — see app/db_backend.py. Verify it first with:
+#           docker compose --profile postgres up -d db
+#           python scripts/check_postgres.py
+#
+# The `postgres` profile means the default `docker compose up` never starts a database
+# server you have not verified: services with a profile stay stopped unless asked for.
+
+x-app: &app
+  build: .
+  restart: unless-stopped
+  environment:
+    TALENTLENS_DB: /app/data/talentlens.db
+  volumes: ["talentlens-data:/app/data"]
+
+services:
+  api:
+    <<: *app
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--proxy-headers"]
+    ports: ["8000:8000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+
+  dashboard:
+    <<: *app
+    command: ["streamlit", "run", "streamlit_app.py", "--server.port=8501",
+              "--server.address=0.0.0.0", "--server.headless=true"]
+    ports: ["8501:8501"]
+
+  # ---- PostgreSQL profile: opt in, and verify before trusting ----
+  db:
+    image: postgres:16-alpine
+    profiles: ["postgres"]
+    environment:
+      POSTGRES_USER: talentlens
+      POSTGRES_PASSWORD: talentlens      # demo only — change for anything real
+      POSTGRES_DB: talentlens
+    ports: ["5432:5432"]
+    volumes: ["talentlens-pgdata:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U talentlens -d talentlens"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+  api-postgres:
+    <<: *app
+    profiles: ["postgres"]
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--proxy-headers"]
+    environment:
+      # this block replaces the anchor's environment rather than merging into it, so
+      # TALENTLENS_DB is intentionally absent — DATABASE_URL takes priority in db.py
+      DATABASE_URL: postgresql://talentlens:talentlens@db:5432/talentlens
+    ports: ["8010:8000"]        # a different port, so it cannot clash with the SQLite api
+    depends_on:
+      db:
+        condition: service_healthy
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    profiles: ["postgres"]
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@talentlens.dev
+      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_CONFIG_SERVER_MODE: "False"
+    ports: ["5050:80"]
+    depends_on: [db]
+    restart: unless-stopped
+
+volumes:
+  talentlens-data:
+  talentlens-pgdata:

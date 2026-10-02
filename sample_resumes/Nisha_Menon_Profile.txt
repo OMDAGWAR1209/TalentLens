@@ -1,0 +1,32 @@
+Nisha Menon
+Data Scientist
+nisha.menon.ds@gmail.com
+linkedin.com/in/nishamenon-ds
+
+SUMMARY
+Data scientist, 4 years, working mostly on demand forecasting and pricing.
+Exported from LinkedIn, so contact details are partial.
+
+EXPERIENCE
+Data Scientist
+Swiggy
+Mar 2022 - Present
+Forecasting models for kitchen capacity planning across 180 cities.
+Cut forecast error (WAPE) from 24% to 15%.
+
+Associate Data Scientist
+Mu Sigma Business Solutions
+Jul 2021 - Feb 2022
+Pricing elasticity models for a CPG client.
+
+SKILLS
+Python, SQL, Machine Learning, Deep Learning, Statistics, Pandas, NumPy,
+scikit-learn, PyTorch, Airflow, Spark, Snowflake, Tableau, Git, Docker
+
+EDUCATION
+M.Sc Statistics
+Christ University
+2021
+
+CERTIFICATIONS
+Google Advanced Data Analytics Certificate, 2023

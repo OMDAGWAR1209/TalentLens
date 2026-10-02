@@ -1,0 +1,41 @@
+Priyanshu Rauniyar
+Pune, Maharashtra
+Email: priyanshu.rauniyar@gmail.com
+Mobile: 8802147739
+LinkedIn: linkedin.com/in/priyanshu-rauniyar
+
+CAREER OBJECTIVE
+Final-year engineering student seeking a data science role. Strong foundation in machine
+learning and eager to work on production NLP systems.
+
+EDUCATION
+B.E. Information Technology, Savitribai Phule Pune University, 2026 (expected)
+Percentage: 82.4%
+Higher Secondary, CBSE, 2022
+
+TECHNICAL SKILLS
+Python, SQL, C++
+Machine Learning, Deep Learning, NLP, scikit-learn, TensorFlow, Pandas, NumPy
+Data Visualization with Matplotlib and Seaborn
+Power BI, Excel
+Git, Linux
+
+ACADEMIC PROJECTS
+Resume Screening Copilot (2026)
+Built a TF-IDF and transformer based resume ranker over 1,200 sample resumes.
+Achieved 0.89 F1 on a hand-labelled relevance set.
+
+Crop Yield Predictor (2025)
+Regression models on ICRISAT district data. Deployed with Flask.
+
+INTERNSHIP
+Data Analyst Intern, Bright Future Analytics
+May 2025 - July 2025
+Cleaned and modelled 40k rows of sales data. Built three Power BI dashboards.
+
+CERTIFICATIONS
+Infosys Springboard - Introduction to Artificial Intelligence
+DeepLearning.AI Machine Learning Specialization
+
+LANGUAGES
+English, Hindi, Marathi

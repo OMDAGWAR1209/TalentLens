@@ -1,0 +1,29 @@
+Sathwik Bacchewal
+QA Automation Engineer
+sathwik.bacchewal@gmail.com
++91 70931 55420
+Nagpur, Maharashtra
+
+OBJECTIVE
+Automation-first QA engineer with 5 years of experience. I want to own quality, not tickets.
+
+SKILLS
+Selenium, Playwright, Cypress, TestNG, JUnit, PyTest, Postman, API testing,
+JMeter, Test automation, Manual testing, Java, Python, JavaScript, SQL,
+Jenkins, Docker, Git, Jira, Agile
+
+WORK EXPERIENCE
+QA Automation Engineer - Persistent Systems
+Nagpur, Jan 2023 - Present
+Built a Playwright suite covering 480 flows; nightly run time 22 minutes.
+Set up CI gating in Jenkins that blocked 130 regressions in year one.
+
+Software Test Engineer - Mindtree
+Pune, Aug 2021 - Dec 2022
+Manual and API testing on an insurance claims platform.
+
+EDUCATION
+B.Tech Computer Science, Rashtrasant Tukadoji Maharaj Nagpur University, 2021
+
+CERTIFICATIONS
+ISTQB Certified Tester Foundation Level, 2022

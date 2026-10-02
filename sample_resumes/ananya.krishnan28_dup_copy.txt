@@ -1,0 +1,13 @@
+Ananya Krishnan
+Senior Software Engineer
+ananya.krishnan28@gmail.com | +91 98450 21174 | Bengaluru
+
+SKILLS
+Java, Spring Boot, Python, PostgreSQL, Kubernetes, AWS, Terraform, Kafka, REST APIs
+
+EXPERIENCE
+Senior Software Engineer, Razorpay — Mar 2023 to Present
+Software Engineer, Infosys Limited — Jul 2020 to Feb 2023
+
+EDUCATION
+B.Tech Computer Science, NIT Surathkal, 2020

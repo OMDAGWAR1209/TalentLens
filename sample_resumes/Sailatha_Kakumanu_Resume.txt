@@ -1,0 +1,24 @@
+Sailatha Kakumanu
+Software Engineer
+Hyderabad, Telangana • sailatha.k@gmail.com • +91-79812-44560
+
+PROFILE
+Four years of product engineering across React frontends and Python services.
+
+SKILLS
+Python, JavaScript, TypeScript, React, Redux, FastAPI, Django, REST APIs,
+Docker, PostgreSQL, MongoDB, Git, PyTest, Jira, Agile, Problem solving
+
+EXPERIENCE
+Software Engineer II | Zoho Corporation | Aug 2022 - Present
+Owned the reporting module of a CRM product used by 30k tenants.
+Cut p95 report render time from 4.2s to 1.1s.
+
+Associate Software Engineer | Tech Mahindra | Sep 2021 - Jul 2022
+Maintained internal tooling in Django. Wrote the first test suite for the team.
+
+EDUCATION
+B.Sc Computer Science, Osmania University, 2021
+
+ACHIEVEMENTS
+Zoho Spot Award 2023 for the reporting performance work.

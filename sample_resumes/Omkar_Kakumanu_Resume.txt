@@ -1,0 +1,28 @@
+OMKAR KAKUMANU
+DevOps & Platform Engineer
+omkar.kakumanu@protonmail.com | +91 90142 88317 | Visakhapatnam, Andhra Pradesh
+
+SUMMARY
+Platform engineer with 6 years running Kubernetes in regulated environments.
+
+CORE COMPETENCIES
+Kubernetes, Docker, Terraform, Ansible, Jenkins, GitLab CI, AWS, Azure,
+Linux, Nginx, Prometheus, Grafana, Shell scripting, Python, Go, Observability
+
+EMPLOYMENT HISTORY
+Platform Engineer, HSBC Technology India
+Hyderabad, April 2021 to Present
+Ran 9 EKS clusters across three regions. Cut cloud spend 27% with rightsizing.
+Wrote the internal Terraform module library now used by 40 teams.
+
+Systems Engineer, Wipro Technologies
+Bengaluru, June 2019 to March 2021
+On-call for a retail estate of 300 VMs. Automated patching with Ansible.
+
+EDUCATION
+M.Tech, Computer Science, Andhra University, 2019
+B.Tech, Electronics and Communication, JNTU Kakinada, 2017
+
+CERTIFICATIONS
+Certified Kubernetes Administrator (CKA), 2022
+HashiCorp Certified Terraform Associate, 2023
